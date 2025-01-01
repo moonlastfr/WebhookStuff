@@ -1,1 +1,5 @@
-print('meow')
+print("meow")
+
+if game.Players.LocalPlayer.Name == "onaxochetvzatremen" then
+game.Players.LocalPlayer:Kick("noo")
+end
