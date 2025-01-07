@@ -1,5 +1,5 @@
 print("meow")
 
-if game.Players.LocalPlayer.Name == "onaxochetvzatremen" then
+if game.Players.LocalPlayer.Name == "onaxochetvzatremen" or game.Players.LocalPlayer.Name == "viv_4439" then
 game.Players.LocalPlayer:Kick("noo")
 end
